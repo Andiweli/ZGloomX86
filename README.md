@@ -1,4 +1,4 @@
-# ZGloom – Modern Amiga **Gloom** Port for Windows (x86)
+# ZGloom <br/> Modern Amiga **Gloom** Port for Windows (x86)
 
 > Modernized reimplementation of the classic Amiga first-person shooter **Gloom** (including Gloom Deluxe, Gloom 3 and Zombie Massacre) for modern Windows PCs.
 
@@ -127,6 +127,28 @@ ZGloom can play in-game music using any module format supported by **LibXMP**.
     song_blitz.mod
 
 You can add multiple `song_` commands, which allows **per-level music**.
+
+---
+
+## 🛠 Building from source (Windows)
+
+This repository is currently set up to be built with **Microsoft Visual Studio 2026** on Windows.  
+Linux, macOS, CMake- or make-based builds are **not** tested at this time.
+
+The project is structured around the **MSVC toolchain** and Visual Studio project/solution files, so the recommended workflow is:
+
+1. Install **Visual Studio 2026** with the **“Desktop development with C++”** workload.
+2. Clone this repository to your PC (working SDL2 and SDL2_Mixer are included in this repo).
+3. Open the provided Visual Studio solution (or create a new one and add the sources from this repo).
+4. Select a configuration (for example `Release` / `x86`) and build the solution.
+5. Copy your original **Gloom** game data next to the compiled executable as described above in the *Getting Started* section.
+
+If you want to experiment with other platforms or compilers (e.g. gcc/clang on Linux), you will currently need to:
+
+- create your own build system files (CMake, Meson, custom Makefiles, etc.),
+- and handle any platform-specific fixes yourself.
+
+Clean, optional contributions that add a **portable build setup** without breaking the existing Visual Studio workflow are very welcome.
 
 ---
 
