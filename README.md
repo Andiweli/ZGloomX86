@@ -40,6 +40,12 @@ This fork focuses on an improved renderer, extended in-game options and subtle p
 
 ---
 
+## 🎞️ Preview of the next update
+
+https://github.com/user-attachments/assets/7e1427e0-9a1e-416a-b115-55faf4cbe8fa
+
+---
+
 ## 🖼️ Screenshots
 
 Comparison of the original renderer vs. the fixed ZGloom renderer:
@@ -135,17 +141,17 @@ You can add multiple `song_` commands, which allows **per-level music**.
 The current Windows build focuses on stability and visual parity with the original game.  
 For future versions, the following features and improvements are planned:
 
-- **Integrated cheat menu from the PS Vita version**  
-  Port the extended cheat menu from the PS Vita ports (e.g. infinite health, weapon tweaks) and expose it directly in the PC options menu.
+- ~~**Integrated cheat menu from the PS Vita version**~~  
+  ~~Port the extended cheat menu from the PS Vita ports (e.g. infinite health, weapon tweaks) and expose it directly in the PC options menu.~~
 
 - **Save & load position system from PS Vita**  
   Bring over the position save/load logic from the Vita builds to allow resuming from checkpoints or specific spots in a level instead of always starting from the beginning.
 
-- **Additional fixes for weapon firing behaviour**  
-  Further refine projectile origin, muzzle flash alignment and strafing behaviour so shots always leave the weapon at the correct position and angle.
+- ~~**Additional fixes for weapon firing behaviour**~~  
+  ~~Further refine projectile origin, muzzle flash alignment and strafing behaviour so shots always leave the weapon at the correct position and angle.~~
 
-- **HUD rendering above post-processing overlays**  
-  Adjust the rendering order so the HUD is drawn on top of vignette / film grain / scanline effects, keeping it crisp and perfectly readable.
+- ~~**HUD rendering above post-processing overlays**~~  
+  ~~Adjust the rendering order so the HUD is drawn on top of vignette / film grain / scanline effects, keeping it crisp and perfectly readable.~~
 
 - **Optional background / ambient sound layers**  
   Add support for subtle ambient or background soundscapes to enhance atmosphere without changing core gameplay.
