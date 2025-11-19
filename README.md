@@ -40,7 +40,7 @@ This fork focuses on an improved renderer, extended in-game options and subtle p
 
 ---
 
-## 🎞️ Preview of the next update
+## 🎞️ Preview of current Game status
 
 https://github.com/user-attachments/assets/7e1427e0-9a1e-416a-b115-55faf4cbe8fa
 
