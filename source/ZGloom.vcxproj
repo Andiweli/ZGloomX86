@@ -20,6 +20,7 @@
     <ClCompile Include="ConfigOverlays.cpp" />
     <ClCompile Include="decrunchmania.cpp" />
     <ClCompile Include="effects\BlobShadowToggle.cpp" />
+    <ClCompile Include="EventReplay.cpp" />
     <ClCompile Include="font.cpp" />
     <ClCompile Include="gamelogic.cpp" />
     <ClCompile Include="gloommap.cpp" />
@@ -32,6 +33,7 @@
     <ClCompile Include="objectgraphics.cpp" />
     <ClCompile Include="quick.cpp" />
     <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="SaveSystem.cpp" />
     <ClCompile Include="script.cpp" />
     <ClCompile Include="soundhandler.cpp" />
     <ClCompile Include="titlescreen.cpp" />
@@ -51,6 +53,7 @@
     <ClInclude Include="decrunchmania.h" />
     <ClInclude Include="effects\BlobShadowToggle.h" />
     <ClInclude Include="effects\MuzzleFlashFX.h" />
+    <ClInclude Include="EventReplay.h" />
     <ClInclude Include="font.h" />
     <ClInclude Include="gamelogic.h" />
     <ClInclude Include="gameplay\MuzzleOriginFix.h" />
@@ -67,6 +70,7 @@
     <ClInclude Include="objectgraphics.h" />
     <ClInclude Include="quick.h" />
     <ClInclude Include="renderer.h" />
+    <ClInclude Include="SaveSystem.h" />
     <ClInclude Include="script.h" />
     <ClInclude Include="soundhandler.h" />
     <ClInclude Include="titlescreen.h" />
