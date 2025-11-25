@@ -16,9 +16,6 @@ This fork focuses on an improved renderer, extended in-game options and subtle p
 - **Modern Windows port of Amiga Gloom**  
   Faithful software-rendered Windows (x86) version of the original Amiga FPS engine.
 
-- **Supports original games and mods**  
-  Works with classic data files and popular mods such as **“Death Mask”** and **“8bit Killer”** (as long as they follow the original engine layout).
-
 - **Built-in multi-game launcher**  
   If more than one game or mod is installed, a simple launcher lets you choose between **Gloom**, **Gloom Deluxe**, **Gloom 3**, **Zombie Massacre** or supported mods at startup.
 
@@ -34,18 +31,9 @@ This fork focuses on an improved renderer, extended in-game options and subtle p
 - **Optional post-processing overlays**  
   Configurable **vignette**, **film grain** and **scanlines** to add atmosphere without changing gameplay.
 
-- **In-game MOD music via LibXMP**  
-  Drop tracker modules into the game folder and use script `song_` commands for **per-level music**.
-
 ---
 
-## 🎞️ Preview of current Game status
-
-https://github.com/user-attachments/assets/7e1427e0-9a1e-416a-b115-55faf4cbe8fa
-
----
-
-## 🖼️ Screenshots
+## 🖼️ Screenshots and Video
 
 Comparison of the original renderer vs. the fixed ZGloom renderer:
 
@@ -54,6 +42,10 @@ Comparison of the original renderer vs. the fixed ZGloom renderer:
 Menu options and visual overlays (vignette, film grain, scanlines):
 
 ![ZGloom menu and overlays – vignette, film grain and scanlines](https://github.com/user-attachments/assets/930e1f9f-0dea-470a-80f3-3b3e8ecf163c)
+
+Game Preview video
+
+https://github.com/user-attachments/assets/7e1427e0-9a1e-416a-b115-55faf4cbe8fa
 
 ---
 
@@ -81,12 +73,13 @@ You can use data files from:
 - **Gloom Deluxe**
 - **Gloom 3**
 - **Zombie Massacre**
+- **several available mods***
 
 ### 2. Install ZGloom
 
 1. Download the latest ZGloom release from GitHub.  
 2. Extract the ZIP into a folder of your choice.  
-3. Copy the extracted Gloom game data into the same folder as `ZGloom.exe`.
+3. Copy the extracted Gloom game data dirs into the same folder as `ZGloom.exe`.
 
 Your final folder might look like this (example with **Gloom Deluxe**):
 
@@ -94,14 +87,14 @@ Your final folder might look like this (example with **Gloom Deluxe**):
     libxmp.dll
     SDL2.dll
     SDL2_mixer.dll
-    maps/   (dir)
-    misc/   (dir)
-    objs/   (dir)
-    pics/   (dir)
-    sfxs/   (dir)
-    txts/   (dir)
+    gloom/      (dir)
+    deluxe/     (dir)
+    gloom3/     (dir)
+    massacre/   (dir)
+    8bitkiller/ (dir)
+    other mod/  (dir)
 
-Then simply double-click `ZGloom.exe` to start the game.
+Then simply double-click `ZGloom.exe` to start the game and the launcher appears.
 
 ---
 
@@ -109,29 +102,16 @@ Then simply double-click `ZGloom.exe` to start the game.
 
 Keyboard controls in ZGloom:
 
-- **Arrow keys** – Move and turn  
+- **WASD** – Move and turn  
 - **Left Alt** – Strafe  
-- **Left Ctrl** – Fire  
+- **Left Ctrl** – Fire
+- **Left Shift** - Run
 - **F1** – Skip level  
 - **F12** – Toggle fullscreen  
-- **Print Screen** – Save a screenshot as bitmap  
 - **ESC** – Pause and open the in-game menu
 
 The extended menu offers more options than the original game and port.  
 You can change values with the **left/right arrow keys** (for example for fullscreen, vignette, film grain, scanlines, and other display options).
-
----
-
-## 🔊 In-game Music (MOD Support)
-
-ZGloom can play in-game music using any module format supported by **LibXMP**.
-
-1. Put your `.mod` (or other supported module) files in the `sfxs` folder.  
-2. Add entries like this to the script (example):
-
-    song_blitz.mod
-
-You can add multiple `song_` commands, which allows **per-level music**.
 
 ---
 
