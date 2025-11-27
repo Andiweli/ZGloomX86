@@ -1,54 +1,49 @@
-# ZGloom - Modern Amiga **Gloom** Port for Windows (x86)
+# ZGloom-x86 – Modern Amiga Gloom port for Windows (x86)
 
-> Modernized reimplementation of the classic Amiga first-person shooter **Gloom** (including Gloom Deluxe, Gloom 3 and Zombie Massacre) for modern Windows PCs.
+Modern Windows (x86) port of the **ZGloom** engine that reimplements the classic Amiga FPS **Gloom** and its successors for contemporary PCs.
 
-[![Latest release](https://img.shields.io/github/v/release/andiweli/ZGloom?label=latest%20release)](https://github.com/andiweli/ZGloom/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Windows%20(x86)-blue.svg)](https://github.com/andiweli/ZGloom)
-[![Engine](https://img.shields.io/badge/engine-custom%20software%20renderer-brightgreen.svg)](https://github.com/andiweli/ZGloom)
+> Play Gloom, Gloom Deluxe, Gloom 3 and Zombie Massacre on Windows with a fixed renderer, widescreen support, post-processing overlays and save/load position – while staying faithful to the original Amiga gameplay.
 
-ZGloom is a modern Windows (x86) source port of the Amiga FPS **Gloom**.  
-This fork focuses on an improved renderer, extended in-game options and subtle post-processing effects while staying faithful to the original look and gameplay.
+[![Latest release](https://img.shields.io/github/v/release/andiweli/ZGloom-x86?label=latest%20release)](https://github.com/andiweli/ZGloom-x86/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%20(x86)-blue.svg)](https://github.com/andiweli/ZGloom-x86)
+[![Engine](https://img.shields.io/badge/engine-sdl%20software%20renderer-brightgreen.svg)](https://github.com/andiweli/ZGloom-x86)
+
+ZGloom-x86 is the Windows edition of the ZGloom source-port family. It focuses on a clean software-style renderer, extended in-game options and subtle post-processing while preserving the original feel of the Amiga release.
+
+For other platforms, see the companion projects [ZGloom-Android](https://github.com/Andiweli/ZGloom-Android), [ZGloom-Vita-Vita2D (PS Vita / PSTV)](https://github.com/Andiweli/ZGloom-Vita-Vita2D) and [ZGloom-macOS](https://github.com/Andiweli/ZGloom-macOS).
 
 ---
 
 ## ✨ Key Features
 
-- **Modern Windows port of Amiga Gloom**  
-  Faithful software-rendered Windows (x86) version of the original Amiga FPS engine.
+- Modern source port of the Amiga Gloom engine  
+  Runs the original Gloom data files on modern Windows PCs (x86) using the modern ZGloom C++ engine.
 
-- **Built-in multi-game launcher**  
-  If more than one game or mod is installed, a simple launcher lets you choose between **Gloom**, **Gloom Deluxe**, **Gloom 3**, **Zombie Massacre** or supported mods at startup.
+- Supports multiple official games  
+  Play **Gloom**, **Gloom Deluxe / Ultimate Gloom**, **Gloom 3** and **Zombie Massacre** (plus selected mods where available).
 
-- **4:3 / 16:9 display modes with FOV control**  
-  Switch between classic 4:3 and widescreen 16:9 and adjust the **field of view** to match your display and taste.
+- Built-in multi-game launcher  
+  If more than one game or mod is present, a simple launcher lets you pick what to play at startup.
 
-- **Improved software renderer**  
-  Cleaner perspective, fewer glitches and subtle polish compared to the original PC port.
+- 4:3 and 16:9 display modes with FOV control  
+  Switch between the classic 4:3 Amiga look and a widescreen 16:9 mode and adjust the field of view to match your display and taste.
 
-- **Dynamic muzzle flash and projectile reflections**  
-  Each shot briefly brightens the floor, and colored reflection ellipses are rendered under projectiles and weapon upgrade orbs, matching weapon type and upgrade level.
+- Improved renderer, lighting and effects  
+  Uses the fixed ZGloom renderer with cleaner perspective, fewer glitches and subtle lighting tweaks, including dynamic muzzle flashes and colored floor reflections under projectiles and weapon upgrade orbs.
 
-- **Optional post-processing overlays**  
-  Configurable **vignette**, **film grain** and **scanlines** to add atmosphere without changing gameplay.
+- Atmospheric post-processing overlays (optional)  
+  Enable vignette, film grain and scanlines for a more gritty, CRT-style presentation without changing gameplay.
 
-- **Save/Load position option**  
-  Saves your position in the game as well as weapon and ammo.
+- Save/Load position and extended options  
+  Save your in-level position (including health, weapon and ammo state) and tweak many more options than in the original Amiga release.
 
 ---
 
-## 🖼️ Screenshots and Video
+## 🖼️ Gameplay-Video and Screenshots
 
-Comparison of the original renderer vs. the fixed ZGloom renderer:
+https://github.com/user-attachments/assets/ec227046-16db-4989-b374-e137fc0af27c
 
-![ZGloom renderer comparison – old vs fixed renderer](https://github.com/user-attachments/assets/b4a6257f-c72f-4581-9a2c-28d241b90741)
-
-Menu options and visual overlays (vignette, film grain, scanlines):
-
-![ZGloom menu and overlays – vignette, film grain and scanlines](https://github.com/user-attachments/assets/930e1f9f-0dea-470a-80f3-3b3e8ecf163c)
-
-Game Preview video
-
-https://github.com/user-attachments/assets/7e1427e0-9a1e-416a-b115-55faf4cbe8fa
+<img width="1280" height="1440" alt="Gloom-Screenshots" src="https://github.com/user-attachments/assets/4af921eb-7276-497b-b759-122b9ccacebf" />
 
 ---
 
@@ -56,47 +51,17 @@ https://github.com/user-attachments/assets/7e1427e0-9a1e-416a-b115-55faf4cbe8fa
 
 Get the latest Windows (x86) build here:
 
-👉 **[Latest ZGloom release](https://github.com/andiweli/ZGloom/releases/latest)**
+👉 **[Latest ZGloom release](https://github.com/andiweli/ZGloom-x86/releases/latest)**
 
 Each release contains the `ZGloom.exe` and required libraries.  
-You still need the original Gloom game data (see below).
+Game-data is included.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Download the original Gloom data
-
 Gloom was made freely available by its developers.  
-Download the game data (for example the GloomAmiga archive) and extract it somewhere on your drive.
-
-You can use data files from:
-
-- **Gloom**
-- **Gloom Deluxe**
-- **Gloom 3**
-- **Zombie Massacre**
-- **several available mods***
-
-### 2. Install ZGloom
-
-1. Download the latest ZGloom release from GitHub.  
-2. Extract the ZIP into a folder of your choice.  
-3. Copy the extracted Gloom game data dirs into the same folder as `ZGloom.exe`.
-
-Your final folder might look like this (example with **Gloom Deluxe**):
-
-    ZGloom.exe
-    libxmp.dll
-    SDL2.dll
-    SDL2_mixer.dll
-    gloom/      (dir)
-    deluxe/     (dir)
-    gloom3/     (dir)
-    massacre/   (dir)
-    8bitkiller/ (dir)
-    other mod/  (dir)
-
+Download the game and extract it somewhere on your drive.
 Then simply double-click `ZGloom.exe` to start the game and the launcher appears.
 
 ---
@@ -179,5 +144,6 @@ Instead, it uses alternative imagery such as the Black Magic image.
 - Original **Gloom** game and assets by its original Amiga developers  
 - Original PC reimplementation by **Swizpig**  
 - This fork and Windows renderer & overlay work by **Andiweli**
+- background ambience credit goes to Prophet
 
 If you like the project, consider giving the repository a ⭐ star on GitHub – it helps other Amiga and retro-FPS fans discover ZGloom.
