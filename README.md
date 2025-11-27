@@ -14,6 +14,19 @@ For other platforms, see the companion projects [ZGloom-Android](https://github.
 
 ---
 
+## 🕹 What is Gloom?
+
+[Gloom](https://en.wikipedia.org/wiki/Gloom_(video_game)) was a 1995 Doom-like first-person shooter from **Black Magic Software** for the Commodore Amiga. It featured very messy and meaty graphics and required a powerful Amiga at the time (an A1200 with 030 CPU was still on the low end). The engine later powered several related games and successors, including:
+
+- **Gloom Deluxe / Ultimate Gloom** – enhanced graphics and effects  
+- **Gloom 3**  
+- **Zombie Massacre**  
+- Various full-game conversions of other 90’s Amiga titles
+
+ZGloom is a modern reimplementation of this engine.
+
+---
+
 ## ✨ Key Features
 
 - Modern source port of the Amiga Gloom engine  
