@@ -6,7 +6,7 @@ Modern Windows (x86) port of the **ZGloom** engine that reimplements the classic
 
 [![Latest release](https://img.shields.io/github/v/release/andiweli/ZGloom-x86?label=latest%20release)](https://github.com/andiweli/ZGloom-x86/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows%20(x86)-blue.svg)](https://github.com/andiweli/ZGloom-x86)
-[![Engine](https://img.shields.io/badge/engine-sdl%20software%20renderer-brightgreen.svg)](https://github.com/andiweli/ZGloom-x86)
+[![Engine](https://img.shields.io/badge/engine-SDL2%20%2B%20LibXMP-brightgreen.svg)](https://github.com/andiweli/ZGloom-x86)
 
 ZGloom-x86 is the Windows edition of the ZGloom source-port family. It focuses on a clean software-style renderer, extended in-game options and subtle post-processing while preserving the original feel of the Amiga release.
 
